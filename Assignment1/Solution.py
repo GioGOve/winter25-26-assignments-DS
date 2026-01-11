@@ -33,7 +33,8 @@ for student in all_students:
     if avg > 80:
         honors_courses = student.get_honors_courses()
         print(f"{student.name} has an excellent average grade of {avg:.2f}"
-              f" and the following honors courses: {"honors_courses"}")
+              f" and the following honors courses: {honors_courses}")
     else:
         student.add_courses_and_grades("Study Skills", 100)
-        print(f"Added 'Study Skills' with grade 100 for {student.name}.")
+        print(f"Added 'Study Skills' with grade 100 for {student.name}.") 
+    
